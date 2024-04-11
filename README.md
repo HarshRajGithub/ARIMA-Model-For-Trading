@@ -4,7 +4,7 @@
 
 Used ARIMA Model based on the research paper [Link to PDF](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/A%20Quantitative%20Trading%20Strategy%20Based%20on%20A%20Position.pdf)
 
-This project includes parameters like datetime, open, high, low, close, volume, reserve, funding rates, MVRV, NRPL, NUPL, stock-to-flow reversion, STH, SOPR, signal (buy, sell, none), RSI, EMAs, and the Fear and Greed Index. Conducting an Exploratory Data Analysis (EDA) is crucial to understand the data's characteristics, identify patterns, and inform further analysis or modeling.
+## Colab Link [Link to Colab](https://colab.research.google.com/drive/17EH1tz9l_zUMV-t2Qyq18zfLgGh2Smcz?usp=sharing)
 
 ## Data Cleaning and Preprocessing
 
@@ -34,16 +34,28 @@ This project includes parameters like datetime, open, high, low, close, volume, 
 
 ## Model Evaluation
 
-- **Model Selection**: Based on the EDA findings, select appropriate models for predicting trading signals. This could include time series models like ARIMA, machine learning models like Random Forest or Gradient Boosting, or deep learning models for more complex patterns.
-- **Cross-Validation**: Use cross-validation techniques to evaluate the performance of the selected models and tune their hyperparameters.
+- **Model Selection**: Based on the EDA findings, the ARIMA model was selected for predicting trading signals due to its effectiveness in handling time series data with trends and seasonality. The ARIMA model, with its parameters (p=1, d=1, q=1), was chosen for its simplicity and efficiency in capturing the underlying patterns in the data.
+- **Cross-Validation**: Cross-validation techniques were employed to evaluate the performance of the ARIMA model. This involved splitting the dataset into training and testing sets to assess the model's ability to generalize to unseen data. The performance metrics, such as  Mean Squared Error (RMSE), were used to quantify the model's accuracy in predicting future 'close' prices.
 
 ## Insights and Recommendations
 
-- **Trading Strategies**: Based on the EDA and model evaluations, identify potential trading strategies. For example, if certain technical indicators or market conditions consistently precede profitable trades, these could form the basis of a trading strategy.
-- **Risk Management**: Analyze the risk associated with different trading signals and develop strategies to manage risk effectively.
-
-This comprehensive EDA process will provide a solid foundation for understanding the Bitcoin trading dataset, identifying patterns, and informing the development of trading strategies or predictive models.
+- **Trading Strategies**: The ARIMA model's predictions were used to generate trading signals. A 'Buy' signal was recommended when the predicted 'close' price was higher than the actual 'close' price, indicating an upward trend. Conversely, a 'Sell' signal was recommended when the predicted 'close' price was lower than the actual 'close' price, suggesting a downward trend. The model's performance in accurately predicting these trends forms the basis of the recommended trading strategy.
+- **Risk Management**: The ARIMA model's predictions were analyzed to assess the risk associated with different trading signals. By comparing the predicted 'close' prices with the actual prices, the model's accuracy in predicting market movements was evaluated. This analysis helped in developing strategies to manage risk effectively, ensuring that trades are made only when there is a high degree of confidence in the model's predictions.
 
 ## Output Image
 ![Output Image](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/Images%20Quant%20Trading%20APP/outputWithBuyandSell.png)
+
+## Conclusion
+
+The ARIMA model has proven to be a robust and effective tool for analyzing historical price patterns, identifying trends, and predicting future market movements in trading. By leveraging the statistical properties of time series data, ARIMA enables traders to make informed decisions based on a thorough understanding of market dynamics. The model's ability to capture time-dependent patterns, handle non-stationarity, and provide interpretable results makes it a valuable tool in the trading toolkit.
+
+This project stands as a testament to the potential of the ARIMA model in enhancing trading strategies and decision-making processes. By acknowledging its limitations and incorporating additional data sources and analysis techniques, traders can maximize the potential of ARIMA to improve their investment outcomes.
+
+## Contributing
+
+Contributions are welcome!
+
+## Acknowledgements
+
+This project was inspired by various sources and projects. We give credit where credit is due.
 
