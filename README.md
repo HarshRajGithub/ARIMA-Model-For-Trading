@@ -2,7 +2,8 @@
 
 ## Overview
 
-Used ARIMA Model based on the research paper [Link to PDF](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/A%20Quantitative%20Trading%20Strategy%20Based%20on%20A%20Position.pdf)
+Used ARIMA Model based on the research paper [A Quantitative Trading Strategy Based on A Position Management Model 
+](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/A%20Quantitative%20Trading%20Strategy%20Based%20on%20A%20Position.pdf)
 
 ## Colab Link [Link to Colab](https://colab.research.google.com/drive/17EH1tz9l_zUMV-t2Qyq18zfLgGh2Smcz?usp=sharing)
 
