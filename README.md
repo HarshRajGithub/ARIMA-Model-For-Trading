@@ -21,7 +21,7 @@ Used ARIMA Model based on the research paper [A Quantitative Trading Strategy Ba
 ## Visualizations
 
 - **Time Series Analysis**: Plot the 'close' price over time to visualize the overall trend and seasonality.
-- **Price Distribution**: Use histograms or box plots to understand the distribution of the 'close' price and identify any skewness or outliers.
+- **Price Distribution**: Use histograms to understand the distribution of the 'close' price and identify any skewness or outliers.
 - **Volume Analysis**: Plot the 'volume' against the 'close' price to understand the relationship between trading volume and price movements.
 - **Signal Analysis**: Visualize the 'signal' column to see the frequency and distribution of buy, sell, and none signals over time.
 - **EMAs and RSI**: Plot the EMAs and RSI to understand their behavior and how they might correlate with price movements or trading signals.
