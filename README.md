@@ -45,7 +45,7 @@ Used ARIMA Model based on the research paper [A Quantitative Trading Strategy Ba
 - **Risk Management**: The ARIMA model's predictions were analyzed to assess the risk associated with different trading signals. By comparing the predicted 'close' prices with the actual prices, the model's accuracy in predicting market movements was evaluated. This analysis helped in developing strategies to manage risk effectively, ensuring that trades are made only when there is a high degree of confidence in the model's predictions.
 
 ## Output Image
-![Output Image](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/Images%20Quant%20Trading%20APP/outputWithBuyandSell.png)
+![Output Image](https://github.com/HarshRajGithub/ARIMA-Model-For-Trading/blob/main/Images%20Quant%20Trading%20APP/outputWithBuyandSellPositionpng.png)
 
 ## Conclusion
 
