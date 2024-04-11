@@ -36,7 +36,8 @@ Used ARIMA Model based on the research paper [A Quantitative Trading Strategy Ba
 ## Model Evaluation
 
 - **Model Selection**: Based on the EDA findings, the ARIMA model was selected for predicting trading signals due to its effectiveness in handling time series data with trends and seasonality. The ARIMA model, with its parameters (p=1, d=1, q=1), was chosen for its simplicity and efficiency in capturing the underlying patterns in the data.
-- **Cross-Validation**: Cross-validation techniques were employed to evaluate the performance of the ARIMA model. This involved splitting the dataset into training and testing sets to assess the model's ability to generalize to unseen data. The performance metrics, such as  Mean Squared Error (RMSE), were used to quantify the model's accuracy in predicting future 'close' prices.
+- **Cross-Validation**: Cross-validation techniques were employed to evaluate the performance of the ARIMA model. This involved splitting the dataset into training and testing sets to assess the model's ability to generalize to unseen data. The performance metrics, such as  Mean Squared Error (MSE), were used to quantify the model's accuracy in predicting future 'close' prices.
+- **Mean Squared Error**: 17790293.505004823
 
 ## Insights and Recommendations
 
