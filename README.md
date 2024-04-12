@@ -59,5 +59,5 @@ Contributions are welcome!
 
 ## Acknowledgements
 
-This project was inspired by various sources and projects. We give credit where credit is due.
+This project was inspired by various sources and projects. I give credit where credit is due.
 
